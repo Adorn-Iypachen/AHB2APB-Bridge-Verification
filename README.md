@@ -36,7 +36,7 @@ The AHB protocol is designed for fast, high-bandwidth data transfers.
 |---------------|----------|------------------------------------------|
 | `000`         | `SINGLE` | single transfer                          |
 | `001`         | `INCR`   | Incrementing burst of unspecified length |
-| `010`.        | `WRAP4`  | 4-beat wrapping burst                    |
+| `010`         | `WRAP4`  | 4-beat wrapping burst                    |
 | `011`         | `INCR4`  | 4-beat incrementing burst                |
 | `100`         | `WRAP8`  | 8-beat wrapping burst                    |
 | `101`         | `INCR8`  | 8-beat incrementing burst                |
